@@ -30,7 +30,7 @@ jobs:
   #descrição do job
   e2e-tests:
     #maquina que o jo vai execcutar
-    runs-on ['umutu-latest']
+    runs-on: ['ubumtu-latest']
     #passo a passo das ações do job
     steps:
       - uses: actions/checkout@v4
